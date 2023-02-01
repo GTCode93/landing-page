@@ -14,15 +14,25 @@ a {
     text-decoration: none;
 }
 
+button {
+    color: inherit;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+}
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
 }
 
 .header-list {
@@ -36,6 +46,7 @@ a {
 .section-one {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
 }
 
 .section-one-left {
@@ -45,10 +56,20 @@ a {
 
 .image-placeholder {
     background-color: grey;
-    height: 250px;
+    height: 200px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.section-one-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.section-one-p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
