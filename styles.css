@@ -32,3 +32,23 @@ a {
     align-items: center;
     gap: 16px;
 }
+
+.section-one {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-placeholder {
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
