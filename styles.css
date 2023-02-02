@@ -82,3 +82,23 @@ button {
     color: #e5e7eb;
     word-wrap: break-word;   
 }
+
+.section-two {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-two-content {
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
