@@ -119,11 +119,36 @@ button {
     flex-direction: column;
     align-items: center;
     width: 160px;
-
 }
 
 .section-two-p {
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.section-three-content{
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom:0px;
+}
+
+.quote-credit {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.quote-credit-p {
+    margin-top: 0px;
 }
