@@ -16,18 +16,21 @@ a {
 }
 
 button {
+/* This button styling is to create a blue button, the two in this project */
     color: inherit;
     font-size: 16px;
     font-family: inherit;
     font-weight: bold;
     background-color: #3882f6;
-    width: 110px;
-    height: 30px;
+    width: 130px;
+    height: 35px;
     border-radius: 8px;
+    border: none;
 }
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
 }
 
 .header-logo {
@@ -39,9 +42,11 @@ button {
 .header-list {
     font-size: 18px;
     color: #e5e7eb;
+    width: 500px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 .section-one {
