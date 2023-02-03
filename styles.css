@@ -130,23 +130,31 @@ button {
 .section-three {
     background-color: #e5e7eb;
     color: #1f2937;
+    padding: 80px;
 }
 
 .section-three-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .quote {
     font-size: 36px;
     font-weight: lighter;
-    margin-bottom:0px;
+    margin-bottom: 0px;
+    height: 175px;
+    width: 775px;
 }
 
 .quote-credit {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
+    width: 1090px;
+    margin: 0px;
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
 }
 
 .quote-credit-p {
